@@ -1,0 +1,49 @@
+body {
+	background: antiquewhite;
+	font-family: Inter;
+}
+div.ques {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+	width: 80vh;
+	height: auto;
+	gap: 9px;
+	border-radius: 16px;
+}
+button.press {
+	background-color: blue;
+	border: none; 
+	padding: 22px;
+}
+button.press:hover {
+	background-color: blue;
+	border: none; 
+	padding: 24px;
+}
+input.enter {
+	border: solid;
+	border-radius: 10px;
+	font-size: 16px;
+	outline: none;
+	border-color: grey;
+}
+input.enter:hover {
+	border: solid;
+	border-radius: 10px;
+	font-size: 16px;
+	outline: none;
+	border-color: black;
+}
+input.enter:focus {
+	border: solid;
+	border-radius: 10px;
+	font-size: 16px;
+	border-color: lightgreen;
+}
